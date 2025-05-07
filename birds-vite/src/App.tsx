@@ -63,7 +63,7 @@ const App = () => {
         </div>
         <div className="p-6 overflow-scroll max-h-[calc(100vh-2rem-97px-81px)]">
           {birds.length > 0 && (
-            <ul className="grid gap-3 grid-cols-[repeat(auto-fill,minmax(170px,1fr))]">
+            <ul className="grid gap-6 grid-cols-[repeat(auto-fill,minmax(170px,1fr))]">
               {birds.map((bird) => (
                 <BirdCard key={bird.id} bird={bird} />
               ))}
