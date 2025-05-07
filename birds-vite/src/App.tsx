@@ -6,7 +6,7 @@ import BirdCard from './components/BirdCard';
 
 const GET_BIRDS = gql`
   query GetBirds {
-    birds(filter: { limit: 10, offset: 0 }) {
+    birds {
       id
       english_name
       latin_name
