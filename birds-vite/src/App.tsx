@@ -1,6 +1,6 @@
 // import "@fontsource-variable/inter";
-import SearchIcon from "./SearchIcon";
-import SideBar from "./components/SideBar";
+import SearchIcon from './SearchIcon';
+import SideBar from './components/SideBar';
 
 const App = () => {
   return (
